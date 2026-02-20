@@ -1,4 +1,4 @@
-Raju singh, [2/21/2026 5:11 AM]
+
 from flask import Flask, request, jsonify
 from openai import OpenAI
 import os
@@ -71,3 +71,4 @@ def chat():
 if name == "main":
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
+
